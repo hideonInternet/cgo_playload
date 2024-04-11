@@ -1,0 +1,1 @@
+introduce how to use cgo-tech to call c/c++ function or import c/c++ library in golang program
