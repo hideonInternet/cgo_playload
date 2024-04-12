@@ -1,3 +1,8 @@
 code/code_c/code_c
 code/file_c/file_c
 code/file_cpp_good/file_cpp_good
+*.o
+*.a
+*.so
+static/static
+shared/shared

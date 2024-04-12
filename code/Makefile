@@ -12,6 +12,11 @@ file_cpp_bad:
 file_cpp_good:
 	make -C file_cpp_good file_cpp_good
 
+run:
+	make -C code_c run
+	make -C file_c run
+	make -C file_cpp_good run
+
 clean:
 	make -C code_c clean
 	make -C file_c clean

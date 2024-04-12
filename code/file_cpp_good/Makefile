@@ -4,4 +4,7 @@ file_cpp_good:
 clean:
 	rm file_cpp_good
 
+run:
+	./file_cpp_good
+
 .PHONY:. file_cpp_good
