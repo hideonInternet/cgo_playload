@@ -7,8 +7,6 @@ The `extlib` directory stores the shared library and static library used to illu
 
 The `shared` and `static` directories are used to introduce how to link Golang with existing libraries.
 
-The `variables` directory is used to introduce the variable-convertion between golang and c/c++.
-
 The `performance` directory is used to compare the perfomance difference while using cgo to reach the same goal.
 
 ```
@@ -19,8 +17,7 @@ The `performance` directory is used to compare the perfomance difference while u
 ├── performance
 ├── readme.md
 ├── shared
-├── static
-└── variables
+└── static
 ```
 
 # Usage

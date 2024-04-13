@@ -6,3 +6,6 @@ code/file_cpp_good/file_cpp_good
 *.so
 static/static
 shared/shared
+performance/c/c
+performance/cgo/cgo
+performance/golang/golang
