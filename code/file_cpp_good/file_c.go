@@ -7,4 +7,5 @@ import "C"
 
 func main() {
 	C.Call()
+	C.CallCPP()
 }

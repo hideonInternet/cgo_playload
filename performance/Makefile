@@ -15,3 +15,7 @@ run:
 	@for m in $(module); do\
 		make -C $$m run NUM=$(P);\
 	done
+
+M=Call
+test:
+	go test ./... -bench=$M -count=5 -timeout 20m -v -benchmem

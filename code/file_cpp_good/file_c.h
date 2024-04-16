@@ -1,1 +1,2 @@
 void Call();
+void CallCPP();
