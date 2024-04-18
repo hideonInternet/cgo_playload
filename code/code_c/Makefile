@@ -7,4 +7,7 @@ clean:
 run:
 	./code_c
 
+analysis:
+	go tool cgo code_c.go
+
 .PHONY:. code_c
